@@ -1,60 +1,66 @@
-# maji-ndogo-water-access-dashboard
+# 💧 Maji Ndogo – Water Access Dashboard
 
-🔹 Overview
-This Power BI dashboard presents a deep-dive analysis into water access improvements in the fictional region of Maji Ndogo. The project simulates real-world public sector data challenges — integrating multiple datasets to inform development strategy, resource allocation, and impact estimation.
+This Power BI dashboard analyzes and visualizes access to clean water in the fictional region of **Maji Ndogo**. It models real-world infrastructure challenges by integrating multiple datasets to help identify where improvements are needed, how they’ll impact residents, and how cost-effective the upgrades are.
 
-🔹 Objectives
-Identify current access levels to clean water
+---
 
-Track planned infrastructure upgrades
+## 📌 Objectives
 
-Estimate the impact of improvements on people’s lives
+- Identify current **Basic Water Access** across communities
+- Track planned **water infrastructure improvements**
+- Estimate **lives improved** after upgrades
+- Calculate **Cost per Citizen** for better funding accountability
+- Provide a **clean interactive experience** using bookmarks and image-based navigation
 
-Calculate cost efficiency (e.g., cost per citizen)
+---
 
-Create an interactive bookmark-driven dashboard for decision-makers
+## 📊 Key Metrics
 
-🔹 Key Metrics & Features
-Basic Water Access %
-Real-time metric showing the proportion of the population with reliable and clean water access.
+| Metric | Description |
+|--------|-------------|
+| 💧 Basic Water Access | % of population with clean, accessible water today |
+| 🚰 Lives Improved (Projected) | Estimated % of people who’ll gain access from planned upgrades |
+| 💵 Cost per Citizen | Upgrade cost divided by people served per source |
 
-Lives Improved % (Projected)
-A custom DAX measure estimating the percentage of people who will gain access due to planned improvements.
+---
 
-Cost per Citizen
-Dynamic calculation of how much each upgrade is costing per individual served — helps track value-for-money.
+## 🧰 Tech Stack
 
-Bookmark Navigation
-Users can toggle between “Province View” and “Improvement View” using clean, image-based buttons powered by bookmarks and the selection pane.
+- **Power BI Desktop**
+- **DAX Measures**: Advanced calculations for projections and ratios
+- **Bookmarks + Selection Pane**: Image-based UI toggles
+- **GitHub + Google Sites** for publishing
 
-🔹 Technical Highlights
-Data modeling across multiple related tables (water_source, project_progress, infrastructure_cost, location)
+---
 
-Advanced DAX measures for projection, conditional logic, and ratio calculations
+## 🌍 Project Design
 
-Use of transparent buttons + bookmarks to create a seamless UI toggle experience
+The report allows users to switch views between:
+- **Province-Level Overview** (access disparities, cost per region)
+- **Improvement View** (details on upgrade status and impact)
 
-Dashboard formatted for clarity, storytelling, and real-time exploration
+📌 Buttons are custom-designed using **transparent overlays** on images to simulate seamless visual transitions.
 
-🔹 Tools Used
-Power BI Desktop
+---
 
-DAX for custom calculations
+## 🔗 Demo & Downloads
 
-Bookmarks and selection pane for interactivity
+- 📺 [Live Walkthrough on Google Sites](https://sites.google.com/d/11eJ2nsXcf8VPpQGl5cLm180YZNqhGW5D/p/10UQ9_iTyEYhM54QIFWtrOnvrYjrhhihg/edit)
+- 📂 Download the Power BI File: [`MajiNdogo_WaterAccess.pbix`](./MajiNdogo_WaterAccess.pbix)
 
-GitHub + Google Sites for publishing
+---
 
-🔹 Impact
-This project showcases how clear data modeling and DAX logic can help governments and NGOs:
+## 💡 Learnings
 
-Prioritize infrastructure investment
+This project sharpened my skills in:
+- Data modeling with multiple table relationships
+- Writing projection logic in DAX
+- Designing intuitive user flows without clutter
+- Using **data storytelling** to demonstrate value in infrastructure projects
 
-Estimate social return on upgrades
+---
 
-Present insights in an accessible, visual way
+## 📥 Clone & Explore
 
-🔹 Repo & Demo Links
-🔗 Live Project on Google Sites
-
-💻 GitHub Repository (includes .pbix file)
+```bash
+git clone https://github.com/YOUR_USERNAME/maji-ndogo-water-access-dashboard.git
